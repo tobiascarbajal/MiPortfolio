@@ -193,6 +193,42 @@
             position: relative;
         }
 
+        @media (max-width: 768px) {
+    header {
+        padding: 1.5rem 5%;
+    }
+
+    .logo {
+        font-size: 1.2rem;
+    }
+
+    nav ul {
+        gap: 0.8rem;
+    }
+
+    nav a {
+        font-size: 0.8rem;
+    }
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 1rem 3%;
+    }
+
+    .logo {
+        font-size: 1rem;
+    }
+
+    nav ul {
+        gap: 0.5rem;
+    }
+
+    nav a {
+        font-size: 0.75rem;
+    }
+}
+
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
